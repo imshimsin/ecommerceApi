@@ -15,6 +15,7 @@ Features:
 - Read the list of all products or a specific product.
 - Update existing product details.
 - Delete products from the database.
+- API Authentication using Laravel Sanctum.
 - API Documentation using Postman.
 
 API Endpoints:
@@ -78,16 +79,20 @@ Installation Steps:
    Generate the Laravel application key:
    php artisan key:generate
 
-5. Run Migrations
+5. Install Laravel Sanctum
+    composer require laravel/sanctum
+    php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+
+6. Run Migrations
    Create the database and run migrations to set up the products table:
    php artisan migrate
 
-6. Seed Database with Dummy Data (Optional)
+7. Seed Database with Dummy Data (Optional)
    Generate some sample products:
    php artisan tinker
    Product::factory()->count(10)->create();
 
-7. Start the Laravel Development Server
+8. Start the Laravel Development Server
    You can start the server locally:
    php artisan serve
    Visit the API at http://localhost:8000/api/products.
